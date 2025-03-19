@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+   /* cyrillic-ext */
+font-family:"alumni sans", sans-serif;
+    background-color: #f4f4f4;
+    /*comentario
+    pelo menos tentamos:´(*/
+}
+section{
+    width: 1140px;
+    margin: 0 auto;
+}
+.menu ul li{
+    display: inline-block;
+}
