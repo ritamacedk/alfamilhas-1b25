@@ -1,15 +1,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-   /* cyrillic-ext */
-font-family:"alumni sans", sans-serif;
+
+body {
+    /* cyrillic-ext */
+    font-family: "alumni sans", sans-serif;
     background-color: #f4f4f4;
     /*comentario
     pelo menos tentamos:´(*/
 }
-section{
+
+section {
     width: 1140px;
     margin: 0 auto;
 }
-.menu ul li{
+
+.menu ul li {
     display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.logotipo img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.logotipo {
+    float: left;
+}
+
+.menu li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #444;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+header {
+    padding: 10px 0;
+    height: 100px;
+}
+
+.item {
+    background-color: #fff;
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    margin: 10px 10px;
+}
+
+.descricao {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+
+}
+a{
+    text-decoration: none;
+}
+footer div{
+    width: 32%;
+    display: inline-block;
+}
+footer iframe{
+    width: 100%!important;
+}
+footer{
+    background-color: #444;
+}
+.formulario input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+}
+.contato p{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
 }
