@@ -66,26 +66,95 @@ header {
     color: #444;
 
 }
-a{
+
+a {
     text-decoration: none;
 }
-footer div{
+
+footer div {
     width: 32%;
     display: inline-block;
 }
-footer iframe{
-    width: 100%!important;
+
+footer iframe {
+    width: 100% !important;
 }
-footer{
+
+footer {
     background-color: #444;
+    padding: 40px 0;
 }
-.formulario input{
+
+.formulario input {
     width: 90%;
     height: 40px;
     margin: 10px;
 }
-.contato p{
+
+.contato p {
     font-size: 20px;
     padding: 10px;
     color: #fff;
+}
+
+.depoimentos {
+    text-align: center;
+
+}
+
+.depoimentos h3 {
+    color: #444;
+    font-weight: bold;
+}
+
+.depoimentos h2 {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.depoimentos img {
+    width: 100px;
+    border-radius: 55px;
+    border: 5px solid #f4f4f4;
+}
+
+.depoimentos .descricao {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 30px 0;
+}
+
+.depoimentos .nome {
+    color: #444;
+    font-weight: bold;
+}
+
+.sobre {
+    background: url('img/download.jfif') 50% / cover no-repeat fixed;
+}
+
+.sobre .texto {
+    width: 50%;
+    background-color: #444;
+    color: #fff;
+    padding: 40px;
+    height: 250px;
+}
+
+.texto h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.texto h2, .texto p {
+    max-width: 570px;
+    float: right;
+clear: both;
+}
+
+.vigens {
+    padding: 40px 0;
 }
